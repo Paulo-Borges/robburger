@@ -1,0 +1,227 @@
+.bebidas-header {
+    background: var(--bg-footer);
+    width: 1440px;
+    height: 70px;
+    margin: 0 auto;
+    border: 1px solid var(--back-bebidas);
+}
+
+#sacola .bebidas-header ul li .btn-ligado {
+    padding: 10px 20px 0px 0px; 
+    border-radius: 8px;
+}
+.promo-final {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.promo-text {
+    color: var(--btn-base);
+    font-family: 'Roboto';
+    width: 578px;
+    height: 75px;
+    font-weight: 400;
+    font-size: 64px;
+    margin-left: 150px;
+
+}
+
+.promo-bg {
+    width: 1169px;
+    height: 225px;
+    border: 2px solid var(--back-bebidas);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 35px;
+    margin-left: 150px;
+
+}
+.promo-foto img {
+    width: 302px;
+    height: 225px;
+}
+.promo-bebidas {
+    
+    font-family: 'Roboto';
+    width: 295px;
+    height: 28px;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-right: 200px;
+}
+.neg {
+    font-weight: 900;
+    font-family: 'Roboto';
+    /* width: 140px; */
+    height: 28px;
+    font-size: 24px;
+    margin-top: 20px;
+
+}
+.verm {
+    color: var(--btn-base);
+    font-family: 'Roboto';
+    height: 28px;
+    font-weight: 700;
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 20px;
+
+}
+.promo-valor ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.promo-valor ul li {
+    border: 2px solid var(--back-bebidas);
+    margin-top: 200px;
+}
+
+.verm1 {
+    color: var(--btn-base);
+    font-weight: 700;
+    font-size: 18px;
+}
+.promo-table {
+    display: grid;
+    justify-items: center;
+    justify-content: end;
+    margin-top: 135px;
+}
+.table-item {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 36px;
+}
+.table-item1 {
+    color: var(--btn-base);
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    display: block;
+    text-align: end;
+}
+.table-item2 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    display: flex;
+    align-items: flex-start;
+    font-size: 36px;
+}
+.table-item3 {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+   
+}
+
+.table-fim {
+    color: var(--titulo-banner);
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    padding: 20px 60px;
+    background: var(--btn-base);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+@media (max-width: 1220px) {
+    .promo-bg {
+        width: 1000px;
+        margin-left: 50px;
+    }
+    .promo-bebidas {
+        margin-left: 10px;
+    }
+    .promo-valor ul {
+        margin-left: -400px;
+    }
+
+    .promo-valor ul li {
+        margin-top: 190px;
+    }
+    .promo-table {
+        justify-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 800px) {
+    .promo-bg {
+        width: 650px;
+        margin-left: 50px;
+    }
+    .promo-text {
+        margin-top: 20px;
+        font-size: 44px;
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+    
+    .promo-bebidas {
+        margin-left: 20px;
+    }
+    .promo-valor ul li {
+       display: none;
+       
+    }
+    .promo-table {
+        justify-items: center;
+        justify-content: center;
+    }
+    .promo-bg {
+        margin-top: 80px;
+        grid-template-columns: 1fr 1fr;
+    }
+    .promo-valor ul li {
+        /* border: 2px solid var(--back-bebidas); */
+        margin-top: -40px;
+        margin-left: 30px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --titulo-banner: #ffffff;
+    --btn-base: #e32c2c;
+    --text-burguer: #333333;
+    --icon-footer: #ff8515;
+    --bg-footer: #525252;
+    --back-bebidas: #e5e5e5;
+}
+a {
+    text-decoration: none;
+}
+h1 {
+    margin-bottom: 60px;
+}
+
+li{
+    list-style: none;
+}
+.btn-ligado {
+    color: var(--titulo-banner);
+    background: var(--btn-base);
+    border-radius: 6px; 
+
+}

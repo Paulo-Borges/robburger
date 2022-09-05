@@ -1,0 +1,63 @@
+.bebidas-header {
+    background: var(--bg-footer);
+    width: 1440px;
+    height: 70px;
+    margin: 0 auto;
+    border: 1px solid var(--back-bebidas);
+}
+
+#signup .bebidas-header ul li .btn-ligado {
+    /* a cor esta do global */
+    border-radius: 4px;
+}
+.singup {
+    width: 1440px;
+    margin: 0 auto;
+}
+h1 {
+    color: var(--btn-base);
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 64px;
+    margin-left: 135px;
+
+}
+.signup-cad {
+    display: grid;
+}
+.signup-cad label {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 24px;
+    margin-left: 340px;
+}
+
+.signup-cad input {
+    width: 670px;
+    height: 40px;
+    margin-left: 340px;
+}
+.sign {
+    display: inline-block;
+    background: var(--btn-base);
+    color: var(--titulo-banner);
+    margin-left: 815px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 24px;
+    padding: 20px 40px;
+    margin-bottom: 80px;
+    margin-top: 65px;   
+}
+
+@media (max-width:800px) {
+    .sign {
+    margin-left: 295px;
+    }
+}
+
+@media (max-width:500px) {
+    .sign {
+    margin-left: 95px;
+    }
+}
