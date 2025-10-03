@@ -126,7 +126,7 @@ const lanchesHTML = lanches.map((lanche) => {
             </p>
             <ul>
                 <li><p class="bebidas-preco">${lanche.preco}</p></li>
-                <li><a class="btn-ligad" href="./lanches.html">Adicionar</a></li>
+                <li><a class="btn-ligad" href="./sacola.html">Adicionar</a></li>
             </ul>
             </div>     <!-- aqui grid pra todos fim -->  
         </div>
