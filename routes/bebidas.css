@@ -15,7 +15,8 @@
 
 #bebidas .bebidas-header ul li .btn-ligado {
   /* a cor esta do global */
-  border-radius: 4px;
+  border-radius: 6px;
+  padding: 8px;
 }
 
 @media (max-width: 1220px) {

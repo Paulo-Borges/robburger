@@ -1,6 +1,6 @@
 const lanches = [
   {
-    imagem: "../imagem/hamb1.jpeg",
+    imagem: "../imagem/hamb6.jpeg",
     marca: "La Vosier",
     classe: "Lanches",
     tipo: "Cubanaca",
@@ -9,7 +9,7 @@ const lanches = [
     preco: "R$ 16,00",
   },
   {
-    imagem: "../imagem/hamb2.jpeg",
+    imagem: "../imagem/hamb8.jpeg",
     marca: "Casa da Batata",
     classe: "Lanches",
     tipo: "Super Kit",
@@ -84,7 +84,7 @@ const lanches = [
     imagem: "../imagem/hamb10.jpeg",
     marca: "Siga bem cainhoneiro",
     classe: "Lanches",
-    tipo: ">Enguiça blidado",
+    tipo: "Enguiça blidado",
     argumento:
       "Uma delícia de lanche, sabor sem igual um gosto diferente de tudo que já provei. Super recomendo.",
     preco: "R$ 30,00",
