@@ -110,7 +110,7 @@ const lanchesHTML = lanches
           </h3>
           <div class="home-preco">
             <p>preço:<span>${lanche.preco}</span></p>
-            <a class="home-btn" href="./login.html">Adicionar</a>
+            <a class="home-btn" href="../routes/sacola.html">Adicionar</a>
           </div>
         </div>
     `;
