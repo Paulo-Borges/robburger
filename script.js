@@ -47,6 +47,54 @@ const lanches = [
       "Delicia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
     preco: "R$20,00",
   },
+  {
+    imagem: "./imagem/imagens.jpeg",
+    titulo: "La Voiser",
+    subtitulo: "Super Hamburguer",
+    descricao:
+      "Delicia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+    preco: "R$20,00",
+  },
+  {
+    imagem: "./imagem/imagens.jpeg",
+    titulo: "La Voiser",
+    subtitulo: "Super Hamburguer",
+    descricao:
+      "Delicia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+    preco: "R$20,00",
+  },
+  {
+    imagem: "./imagem/imagens.jpeg",
+    titulo: "La Voiser",
+    subtitulo: "Super Hamburguer",
+    descricao:
+      "Delicia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+    preco: "R$20,00",
+  },
+  {
+    imagem: "./imagem/imagens.jpeg",
+    titulo: "La Voiser",
+    subtitulo: "Super Hamburguer",
+    descricao:
+      "Delicia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+    preco: "R$20,00",
+  },
+  {
+    imagem: "./imagem/imagens.jpeg",
+    titulo: "La Voiser",
+    subtitulo: "Super Hamburguer",
+    descricao:
+      "Delicia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+    preco: "R$20,00",
+  },
+  {
+    imagem: "./imagem/imagens.jpeg",
+    titulo: "La Voiser",
+    subtitulo: "Super Hamburguer",
+    descricao:
+      "Delicia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+    preco: "R$20,00",
+  },
   // Adicione quantos lanches você precisar aqui
 ];
 
