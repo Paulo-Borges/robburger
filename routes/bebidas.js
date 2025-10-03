@@ -53,6 +53,60 @@ const bebidas = [
       "Uma delícia de bebida, sabor sem igual um gosto diferente de tudo que já provei. Super recomendo.",
     preco: "R$ 9,00",
   },
+  {
+    imagem: "../imagem/cubanacan.jpeg",
+    marca: "La Vosier",
+    classe: "Bebidas",
+    tipo: "Cubanaca",
+    argumento:
+      "Uma delícia de bebida, sabor sem igual um gosto diferente de tudo que já provei. Super recomendo.",
+    preco: "R$ 20,00",
+  },
+  {
+    imagem: "../imagem/cubanacan.jpeg",
+    marca: "Carolina Herrera",
+    classe: "Bebidas",
+    tipo: "Amanhecer",
+    argumento:
+      "Uma delícia de bebida, sabor sem igual um gosto diferente de tudo que já provei. Super recomendo.",
+    preco: "R$ 25,00",
+  },
+  {
+    imagem: "../imagem/cubanacan.jpeg",
+    marca: "Casa do café",
+    classe: "Bebidas",
+    tipo: "Café com amor",
+    argumento:
+      "Uma delícia de bebida, sabor sem igual um gosto diferente de tudo que já provei. Super recomendo.",
+    preco: "R$ 18,00",
+  },
+  {
+    imagem: "../imagem/cubanacan.jpeg",
+    marca: "Doces Supremo",
+    classe: "Bebidas",
+    tipo: "Milk shake",
+    argumento:
+      "Uma delícia de bebida, sabor sem igual um gosto diferente de tudo que já provei. Super recomendo.",
+    preco: "R$ 25,00",
+  },
+  {
+    imagem: "../imagem/cubanacan.jpeg",
+    marca: "Body Fitnes",
+    classe: "Bebidas",
+    tipo: "Suco de melancia",
+    argumento:
+      "Uma delícia de bebida, sabor sem igual um gosto diferente de tudo que já provei. Super recomendo.",
+    preco: "R$ 10,00",
+  },
+  {
+    imagem: "../imagem/cubanacan.jpeg",
+    marca: "Body Fitnes",
+    classe: "Bebidas",
+    tipo: "Agua com gás",
+    argumento:
+      "Uma delícia de bebida, sabor sem igual um gosto diferente de tudo que já provei. Super recomendo.",
+    preco: "R$ 9,00",
+  },
 ];
 
 const bebidasHTML = bebidas.map((bebidas) => {
