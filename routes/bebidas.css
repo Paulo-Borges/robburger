@@ -20,6 +20,10 @@
 }
 
 @media (max-width: 1220px) {
+  .bebidas-setor {
+    width: 1100px;
+    flex-wrap: wrap;
+  }
   .home-header {
     width: auto;
   }
