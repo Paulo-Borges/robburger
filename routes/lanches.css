@@ -95,3 +95,23 @@
   line-height: 28.13px;
   margin-bottom: 80px;
 }
+@media (max-width: 1220px) {
+  #lanches .bebidas-header {
+    width: 1100px;
+  }
+  #lanches .home-nav {
+    gap: 140px;
+  }
+  #lanches .bebidas-sabor {
+    width: 1100px;
+  }
+  #lanches .footer {
+    width: 1100px;
+  }
+  #lanches .home-news {
+    display: none;
+  }
+  #lanches .home-rede {
+    margin-left: 305px;
+  }
+}

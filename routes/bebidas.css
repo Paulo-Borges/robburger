@@ -27,8 +27,17 @@
   .home-header {
     width: auto;
   }
+  #bebidas .bebidas-header {
+    width: 1100px;
+  }
+  #bebidas .bebidas-sabor {
+    width: 1100px;
+  }
   .home-setor {
     margin-right: 300px;
+  }
+  #bebidas .footer {
+    width: 1100px;
   }
 }
 
