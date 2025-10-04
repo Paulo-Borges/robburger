@@ -74,17 +74,17 @@ a.botao {
 @media (max-width: 1220px) {
   .home-header {
     width: 1100px;
-    height: auto;
+  }
+  .home-nav {
+    gap: 100px;
   }
   .home-header h1 {
     display: flex;
-    flex-wrap: wrap;
-    width: 900px;
-    height: auto;
-    margin: 0 auto;
+    width: 800px;
+    font-size: 52px;
   }
   a.botao {
-    display: none;
+    margin-left: 400px;
   }
 }
 
@@ -236,8 +236,11 @@ a.botao {
 }
 @media (max-width: 1220px) {
   .home-burguers {
-    display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+  .home-burguer {
+    padding-left: 80px;
+    margin: 0 auto;
   }
 }
 
@@ -295,16 +298,17 @@ a.botao {
   margin-left: 979px;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1220px) {
   .home-promo {
-    width: 1000px;
+    width: 1100px;
   }
   .home-promo h1 {
     width: 812px;
     margin-left: 168px;
+    font-size: 76px;
   }
   .home-promo h2 {
-    margin: 180px auto;
+    margin-left: 780px;
     width: 247px;
   }
 }
@@ -357,6 +361,7 @@ a.botao {
 @media (max-width: 1220px) {
   .home-icons {
     display: grid;
+    margin-left: 220px;
     grid-template-columns: 1fr 1fr;
   }
 }
@@ -436,8 +441,8 @@ a.botao {
 }
 
 @media (max-width: 1220px) {
-  .footer {
-    width: auto;
+  .home-rede {
+    margin-left: 305px;
   }
   .home-news {
     display: none;
