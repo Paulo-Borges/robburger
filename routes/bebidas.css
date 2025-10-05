@@ -41,33 +41,6 @@
   }
 }
 
-@media (max-width: 800px) {
-  .home-header {
-    width: auto;
-  }
-  .bebidas-header .home-nav img {
-    width: 300px;
-  }
-  .home-setor a {
-    display: none;
-  }
-}
-
-@media (max-width: 500px) {
-  .bebidas-header .home-nav {
-    margin-bottom: 40px;
-  }
-  .bebidas-header .home-nav img {
-    width: 200px;
-  }
-  .home-setor a {
-    display: none;
-  }
-  header .bebidas-header .home-setor {
-    margin-bottom: 60px;
-  }
-}
-
 /* bebidas-main */
 .bebidas-sabor {
   margin: 0 auto;
@@ -163,12 +136,5 @@
   .bebidas-sabor {
     grid-template-columns: 1fr 1fr;
     margin-left: 0px;
-  }
-}
-
-@media (max-width: 800px) {
-  .bebidas-sabor {
-    grid-template-columns: 1fr;
-    margin-left: 50px;
   }
 }
