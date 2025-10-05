@@ -1,58 +1,56 @@
 #contato .bebidas-header ul li .btn-ligado {
-    /* a cor esta do global */
-    border-radius: 10px;
-    padding: 6px;
-}    
+  /* a cor esta do global */
+  border-radius: 10px;
+  padding: 6px;
+}
 
 .singup .signup-cad label {
-    margin-left: 235px;
-
+  margin-left: 235px;
 }
 
 .singup .signup-cad input {
-    margin-left: 235px;
-
+  margin-left: 235px;
 }
 
 .signup-tex {
-    width: 1063px;
-    margin-left: 235px;
-    height: 363px;
-    border: 1px solid var(--back-bebidas);
+  width: 1063px;
+  margin-left: 235px;
+  height: 363px;
+  border: 1px solid var(--back-bebidas);
 }
 
 .contato-enviar {
-    display: grid;
-    color: var(--titulo-banner);
-    justify-content: center;
-    background: var(--btn-base);
-    padding: 20px 80px 20px 80px;
-    font-family: 'Roboto';
-    width: 66px;
-    height: 28;
-    font-weight: 400;
-    font-size: 24px;
-    margin-top: 40px;
-    margin-bottom: 70px;
-    margin-left: 1130px;
+  display: grid;
+  color: var(--titulo-banner);
+  justify-content: center;
+  background: var(--btn-base);
+  padding: 20px 80px 20px 80px;
+  font-family: "Roboto";
+  width: 66px;
+  height: 28;
+  font-weight: 400;
+  font-size: 24px;
+  margin-top: 40px;
+  margin-bottom: 70px;
+  margin-left: 1130px;
 }
-
-@media (max-width:800px) {
-    .singup .signup-cad input,
-    .singup .signup-cad label,
-    .singup .signup-cad textarea {
-        margin-left: 20px;
-    }
-    .contato-enviar {
-        margin-left: 20px;
-    }
-}
-
-@media (max-width:500px) {
-    .singup .signup-cad input,
-    .singup .signup-cad label,
-    .singup .signup-cad textarea {
-        margin-top: 30px;
-    }
-  
+@media (max-width: 1220px) {
+  #contato .bebidas-header {
+    width: 1100px;
+  }
+  #contato .footer {
+    width: 1100px;
+  }
+  #contato .singup {
+    width: 1100px;
+  }
+  #contato .signup-cad {
+    width: 800px;
+  }
+  #contato .signup-tex {
+    width: 800px;
+  }
+  #contato .contato-enviar {
+    margin-left: 900px;
+  }
 }
