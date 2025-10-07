@@ -111,7 +111,7 @@ const bebidas = [
 
 const bebidasHTML = bebidas.map((bebidas) => {
   return `
-            <div class="bebidas-base">
+            <div class="bebidas-base" key={index}>
              <div>
                 <img src=${bebidas.imagem} alt="">
             </div>
@@ -128,7 +128,7 @@ const bebidasHTML = bebidas.map((bebidas) => {
                 <li><p class="bebidas-preco">${bebidas.preco}</p></li>
                 <li><a class="btn-ligad" href="./lanches.html">Adicionar</a></li>
             </ul>
-            </div>     <!-- aqui grid pra todos fim -->  
+            </div>     
         </div>
         </div>
     `;
