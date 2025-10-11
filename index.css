@@ -87,6 +87,18 @@ a.botao {
     margin-left: 400px;
   }
 }
+@media (max-width: 820px) {
+  
+  .home-nav {
+    gap: 20px;
+  }
+  .home-nav img {
+  margin-left: 35px;
+}
+.home-setor a {
+  padding: 10px;
+}
+}
 
 /* home-burguer */
 
